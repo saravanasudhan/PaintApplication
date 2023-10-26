@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="logo" title="header">
+                <div class="logo" title="logo">🎨 Drawing App</div>
+                <div class="save" title="save">
+                    <button id="save">Save</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="side">
+            <div class="range">
+                <input type="range" min="1" max="20" id="penSize">
+            </div>
+            <div class="clr">
+                <input type="color" id="penColor">
+            </div>
+            <div class="pen">
+                <img src="./images/pen.png" alt="pen image" id="pen-img" title="pen">
+            </div>
+            <div class="bg" id="bg-button">
+                <img src="./images/paint.png" alt="paint box image" title="paint">
+            </div>
+            <div class="erase">
+                <img src="./images/eraser.png" alt="eraser image" id="eraser-img" title="erase">
+            </div>
+            <div class="undo" id="undo-button">
+                <img src="./images/undo.png" alt="undo image" title="undo">
+            </div>
+        </div><br>
+        <div class="draw">
+            <canvas id="myCanvas" ></canvas>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

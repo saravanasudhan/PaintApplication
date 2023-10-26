@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+}
+.container{
+    background-color: rgb(197, 61, 61);
+    color: white;
+    width: 100vw;
+    height: 100vh;
+}
+.logo{
+    background-color: brown;
+    display: flex;
+    padding: 10px;
+   justify-content: space-around;
+   font-size: large;
+}
+.logo{
+    font-style: oblique;
+    
+}
+.save{
+    margin-top: 9px;
+}
+#save{
+    background-color: rgb(126, 143, 143);
+    padding: 3px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+}
+#save:hover, #save:active{
+    border-color: white;
+    background-color: rgb(131, 100, 51);
+}
+.side{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+   gap: 5vw;
+
+  width: 100vw;
+  height: 13vh;
+   position: absolute;
+   bottom: 3px;
+}
+img{
+    margin-top: 20px;
+    width:50px;
+    border-radius: 50%;
+}
+.clr , .range{
+    margin-top: 32px;
+}
+.draw{
+    background-color: aqua;
+}
+#myCanvas{
+    margin-top: 10vh;
+    
+}
+img:hover{
+   width: 48px;
+    border: 1px solid red;
+    box-shadow: 0px 0px 10px 4px white;
+}
+.clr:hover{
+    width: 50px;
+    height: 25px;
+    box-shadow: 0px 0px 10px 7px white;
+}
+img:active{
+    width: 48px;
+    border: 1px solid rgb(7, 7, 7);
+    box-shadow: 0px 0px 10px 4px rgb(245, 2, 2);
+}
+
+input,button{
+    cursor: grab;
+}
